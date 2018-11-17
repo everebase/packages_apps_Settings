@@ -25,6 +25,33 @@
         android:layout_height="match_parent"
         android:padding="@dimen/sim_content_padding">
 
+        <LinearLayout
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:selectable="false">
+            <ImageView
+           android:layout_width="525.5"
+           android:layout_height="140dp"
+           android:src="@drawable/ic_eve_logo"
+           android:adjustViewBounds="true"
+           android:scaleType="centerInside"
+           android:tint="?android:attr/colorAccent" />
+         </LinearLayout>
+
+         <!-- Eve-OS version -->
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/eve_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eve_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/eve_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             style="@style/device_info_dialog_label"
             android:id="@+id/firmware_version_label"
@@ -50,19 +77,6 @@
             android:layout_height="wrap_content"
             android:background="?android:attr/selectableItemBackground"
             android:textColor="?android:attr/colorAccent"/>
-
-         <!-- Eve-OS version -->
-        <TextView
-            style="@style/device_info_dialog_label"
-            android:id="@+id/eve_version_label"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/eve_version"/>
-        <TextView
-            style="@style/device_info_dialog_value"
-            android:id="@+id/eve_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
 
         <TextView
             style="@style/device_info_dialog_label"
