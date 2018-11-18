@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
  <ImageView
-        android:layout_width="526dp"
+        android:layout_width="625dp"
         android:layout_height="100dp"
         android:src="@drawable/ic_eve_logo"
         android:adjustViewBounds="true"
