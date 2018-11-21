@@ -165,4 +165,6 @@ public class Settings extends SettingsActivity {
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
 
+    // EveOS settings
+    public static class EveAuraSettingsActivity extends SettingsActivity {}
 }

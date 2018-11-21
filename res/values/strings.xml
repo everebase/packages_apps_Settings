@@ -10080,4 +10080,8 @@
 
     <!-- Title for Connected device shortcut [CHAR LIMIT=30] -->
     <string name="devices_title">Devices</string>
+
+    <!-- EveAura -->
+    <string name="eveaura_title">EveAura</string>
+    <string name="eveaura_activity_summary">Lets Eve'ify Customize Phone in our way</string>
 </resources>
