@@ -104,7 +104,7 @@ public class DashboardFragmentRegistry {
         PARENT_TO_CATEGORY_KEY_MAP.put(NightDisplaySettings.class.getName(),
             CategoryKey.CATEGORY_NIGHT_DISPLAY);
         PARENT_TO_CATEGORY_KEY_MAP.put(EveAuraSettings.class.getName(),
-            CategoryKey.CATEGORY_EVE);
+            CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
